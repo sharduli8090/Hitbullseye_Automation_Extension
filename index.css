@@ -1,0 +1,48 @@
+body{
+    height: auto;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    flex-direction: column;
+}
+
+#One_Div,#Two_Div,#Three_Div,#Four_Div,#Five_Div,#back,#levelHeading{
+    display: none;
+}
+
+.aptitude,.technical{
+    color: white;
+    font-weight: bold;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    border-radius: 10000px;
+    margin: 20px;
+}
+
+.btn{
+height: 30px;
+width: 80px;
+border: 0px solid rgb(21, 193, 255);
+border-radius: 10px;
+background-color: rgb(255, 134, 21);
+margin: 6px;
+padding: 5px;
+}
+
+.btn:hover{
+    border: 3px solid rgb(255, 134, 21);
+    background-color: rgba(4, 4, 5, 0);
+    color: rgb(234, 255, 0);
+    cursor: pointer;
+}
